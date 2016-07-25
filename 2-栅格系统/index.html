@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="container">
+       <div class="row">
+		    	<div class="col-md-12">
+		    		  	<p>1.布局容器</p>
+		  	        <p>.container 类用于固定宽度并支持响应式布局的容器</p>
+		  	        <p>.container-fluid 类用于 100% 宽度，占据全部视口（viewport）的容器</p>
+		  	        <p>Columns 水平方向有默认padding</p>
+		  	        <p>There are five grid tiers, 
+	 	  	        	 extra small,   col-xs-    <480px 
+		  	        	 small,         col-sm-    >480px
+		  	        	 medium,        col-md-    >720px
+		  	        	 large,         col-lg-    >992px
+		  	        	 extra large    col-xl-    >1200px
+		  	        </p>
+		  	        
+		  	        
+		  	        
+		  	        <p>修改临界值</p>
+		  	        <p>要修改临界值就在_variables.scss文件中找到$grid-breakpoints修改编译即可</p>
+		  	        <p>用法与bootstrap3.XX相同</p> 
+		  	        <p>在不占满一行的情况下另外起一行开始    clearfix</p>  
+		  	        <div class="row">
+								  <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
+								  <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
+								
+								  <!-- Add the extra clearfix for only the required viewport -->
+								  <!--在不占满一行的情况下另外起一行开始    clearfix-->
+								  <!--In addition to column clearing at responsive breakpoints, you may need to reset offsets, pushes, or pulls.-->
+								  <div class="clearfix visible-xs-block"></div>
+								
+								  <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
+								  <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
+								</div>
+		  	        
+		  	        
+		  	        
+		  	        
+		    	</div>
+       </div>
+    </div>
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

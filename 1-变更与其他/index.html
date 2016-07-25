@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+		1.设备支持：移动端不支持opera
+		2.放弃IE8，支持IE9-11和edge
+		3.IE9部分h5与css3不支持
+		4.  .dropdown-backdrop在ios端无法使用
+		5.安卓4.1之前的默认浏览器使用bootstrap4会有诸多bug
+		<h1>使用前可以修改的选项</h1>
+		<ol>
+			<li>$spacer   文本间距</li>
+			<li>$enable-flex 是否默认伸缩布局 </li>
+			<li>$enable-rounded   是否默认圆角</li>
+			<li>$enable-shadows  是否默认阴影</li>
+			<a href="http://v4.bootcss.com/getting-started/options/">QAQ</a>
+
+		</ol>
+		修改方法
+		Open the     _variables.scss     file
+		find the      $enable-flex      variable.
+        Change it from false to true.
+        Recompile, and done!
+        
+                   修改完对bootstrap.scss进行编译即可
+        IE9之前不兼容伸缩布局flex
+        
+        
+        
+        bootst4使用grunt构建的
+		
+		
+		
+		
+	</body>
+</html>
