@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+  	<p>bootstrap对部分元素进行了重构</p>
+  	<p>Update some browser default values to use    <b>rem</b>s    instead of    ems    for scalable component spacing</p>
+  	<p>
+  		px:固定大小
+  		em：相对单位，相对于父元素
+  		rem：相对单位，只相对于根元素<html>中定义了一个基准  		
+  	</p>
+  	<p>建议使用rem作为margin：的单位</p>
+  	<p>把字体有关属性的声明降到最低,尽量使用继承</p>
+  	
+  	
+  	
+  	
+  	<p>为每一个元素设置了box-size</p>
+  	<p>html 的默认字体大小为16px   body为1rem</p>
+  	<p>body默认的background-color为#fff</p>
+  	
+  	
+  	
+  	
+  	<p>标题：All heading elements—e.g., —and <p> are reset to have their margin-top removed. 
+  		Headings have
+  		                margin-bottom: 0.5rem 
+  		added and paragraphs 
+  		                 margin-bottom: 1rem for easy spacing.</p>
+  	<p>包括列表也有默认间距</p>
+  	
+  	
+  	<p>表单</p>
+  	<p><label>的display：inline-block</p>
+    
+    
+    
+    
+    
+    <h3>code 代码类与第三版无异</h3>
+    
+    
+    
+    
+    
+    
+    <h3>图片类</h3>
+    1.   .img-respoonsive   实现图片的等比例缩放
+    
+    <img src="img/1.jpg" class="img-responsive" alt="" />
+    2.设置图片形状
+    <!--圆形-->
+    <img src="img/2423.jpg" class="img-responsive img-circle" />
+    <!--圆角-->
+    <img src="img/7872.jpg" class="img-responsive img-rounded" />
+    <!--白边加阴影-->
+    <img src="img/2423.jpg" class="img-responsive img-thumbnail" />
+    
+    <h3>图片对齐</h3>
+    <!--居左-->
+    <img src="..." class="img-rounded pull-left" alt="...">
+    <!--居右-->
+    <img src="..." class="img-rounded pull-right" alt="...">
+    <!--居中-->
+    <img src="..." class="img-rounded center-block" style="display: block;" alt="...">
+      
+    <div class="text-center">
+       <img src="..." class="img-rounded" alt="...">
+    </div>
+    
+    
+    
+    <h3>表格类</h3>  
+    <p>
+    	新增反色列表 Inverse table
+    	<table class="table table-inverse"></table>
+    	
+    	还可以设置反色表头和默认样式表头
+    	
+    	  <!--<thead class="thead-default">-->
+    	  <thead class="thead-inverse">
+			    <tr>
+			      <th>#</th>
+			      <th>First Name</th>
+			      <th>Last Name</th>
+			      <th>Username</th>
+			    </tr>
+			  </thead>
+                  其余样式与3相同	
+    </p>
+    
+    
+    
+    
+    <h3>Figures(图片+描述)</h3>
+				<figure class="figure">
+				  <img data-src="holder.js/400x300" class="img-rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+				  <figcaption class="figure-caption">A caption for the above image.</figcaption>
+				  <!--描述居右-->
+				  <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
+				</figure>    
+    
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
